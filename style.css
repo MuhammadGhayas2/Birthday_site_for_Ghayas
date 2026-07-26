@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+     font-family: "Orbitron", sans-serif;
+     background-color: #a2d2ff;
+     color: #ffffff;
+}
+.main{
+    text-align: center;
+}
+#ghayas_img{
+    width: 150px;
+    border: 6px solid #efb0c9;
+    border-radius: 50%;
+}
+.gift_text{
+    color: #1D3557;
+}
+#first_gift{
+    width: 200px;
+    height: 250px;    
+    background-image: url('./images/gift_cover.jpg');
+    background-position: center;
+    background-size: cover;
+    transition: all 0.3s ease;
+}
+#first_gift:hover{
+    background-image: url('./images/dev.webp');
+    width: 350px;
+    
+}
+#second_gift{
+    width: 200px;
+    height: 250px;    
+    background-image: url('./images/gift_cover.jpg');
+    background-position: center;
+    background-size: cover;
+    transition: all 0.3s ease;
+}
+#second_gift:hover{
+    background-image: url('./images/goat.webp');
+    width: 320px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+#third_gift{
+    width: 200px;
+    height: 250px;    
+    background-image: url('./images/gift_cover.jpg');
+    background-position: center;
+    background-size: cover;
+    transition: all 0.3s ease;
+}
+#third_gift:hover{
+    background-image: url('./images/standup.webp');
+    width: 450px;
+    height: 250px;
+    
+}
+#fourth_gift{
+    width: 200px;
+    height: 250px;    
+    background-image: url('./images/gift_cover.jpg');
+    background-position: center;
+    background-size: cover;
+    transition: all 0.3s ease;
+}
+#fourth_gift:hover{
+    background-image: url('./images/flowers.webp');
+    width: 350px;
+    height: 250px;
+    
+}
+.text_shadow{
+    text-shadow: 0px 0px 1px black;
+}
+
+.gift_row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#gift_col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.music_gift{
+    margin-top: 20px;
+}
